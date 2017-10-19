@@ -22,7 +22,8 @@ public class Fragment05 extends AppCompatActivity {
                 FragmentTransaction ft=fm.beginTransaction();
 
                 Fragmento1 preferencias=new Fragmento1();
-                ft.replace(android.R.id.content,preferencias);
+                ft.replace(R.id.contenedor,preferencias);
+                //ft.replace(android.R.id.content,preferencias);
                 ft.commit();
             }
         });
