@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="PREFERENCIAS EN LINEA">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="PREFERENCIAS EN LINEA">
     <CheckBoxPreference
         android:key="valor1"
         android:title="PREFERENCIAS CHECKBOX"
         android:summary="ESTO ES UN CHECKBOX"/>
+    </PreferenceCategory>
     <PreferenceCategory
         android:title="PREFERENCIAS EN CUADRO DE DIALOGO">
         <EditTextPreference
